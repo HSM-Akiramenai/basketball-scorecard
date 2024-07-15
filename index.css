@@ -1,103 +1,103 @@
 @font-face {
-    src: url('/fonts/ctfont.ttf');
-    font-family: CursedTimer;
+  src: url("/fonts/ctfont.ttf");
+  font-family: CursedTimer;
 }
 
 body {
-    margin: 0;
-    background: linear-gradient(140deg, #191D1E, #00505A, #00828D);
-    background-repeat: no-repeat;
-    height: 100vh;
-    text-align: center;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: linear-gradient(140deg, #191d1e, #00505a, #00828d);
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    margin: 0px;
-    color: #F3F4F6;
-    text-shadow: 0px 0px 2px black;
+  margin: 0px;
+  color: #f3f4f6;
+  text-shadow: 0px 0px 2px black;
 }
 
 .container {
-    margin: 60px auto 0px;
-    display: flex;
-    justify-content: space-around;
-    max-width: 550px;
-    min-width: 550px;
-    /* background-color: thistle; */
+  margin: 60px auto 0px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 550px;
+  min-width: 550px;
 }
 
-#home, #guest {
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
+#home,
+#guest {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .score-display {
-    margin-top: 20px;
-    width: 160px;
-    height: 100px;
-    background: #111827;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding-top: 20px;
-    border-radius: 5px;
+  margin-top: 20px;
+  width: 160px;
+  height: 100px;
+  background: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 20px;
+  border-radius: 5px;
 }
 
 .score-display p {
-    font-weight: 400;
-    font-size: 100px;
-    font-family: CursedTimer;
+  font-weight: 400;
+  font-size: 100px;
+  font-family: CursedTimer;
 }
 
 #home-score-el {
-    color: #FBBF24;
+  color: #fbbf24;
 }
 
 #guest-score-el {
-    color: #38BDF8;
+  color: #38bdf8;
 }
 
 .points {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 160px;
 }
 
 button {
-    height: 45px;
-    width: 45px;
-    border: 2px solid #F3F4F6;
-    border-radius: 5px;
-    background: transparent;
-    color: #F3F4F6;
-    cursor: pointer;
-    font-family: CursedTimer;
-    font-size: small;
-    text-shadow: 0px 0px 2px black;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #f3f4f6;
+  border-radius: 5px;
+  background: transparent;
+  color: #f3f4f6;
+  cursor: pointer;
+  font-family: CursedTimer;
+  font-size: small;
+  text-shadow: 0px 0px 2px black;
 }
 
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 #home h1 {
-    color: #FEF3C7;
+  color: #fef3c7;
 }
 
 #home button {
-    color: #FEF3C7;
-    border-color: #FEF3C7;
+  color: #fef3c7;
+  border-color: #fef3c7;
 }
 
 #guest h1 {
-    color: #BAE6FD;
+  color: #bae6fd;
 }
 
 #guest button {
-    color: #BAE6FD;
-    border-color: #BAE6FD;
+  color: #bae6fd;
+  border-color: #bae6fd;
 }
