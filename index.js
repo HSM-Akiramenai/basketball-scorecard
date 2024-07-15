@@ -8,7 +8,7 @@ let homeTitleEl = document.getElementById("home-title-el");
 let guestTitleEl = document.getElementById("guest-title-el");
 
 homeTitleEl.textContent = "HOME";
-guestTitleEl.textContent = "AWAY";
+guestTitleEl.textContent = "GUEST";
 
 homeScoreEl.textContent = "0";
 guestScoreEl.textContent = "0";
